@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #topbar {
-	height: 70pt;
+	height: 70px;
 	background: rgb(10, 25, 30);
 }
 
@@ -32,48 +32,48 @@ h1, h2, h3, h4, h5, h6, p {
 	background: rgb(30, 30, 30);
 }
 
-@media (min-width: 800pt) {
+@media (min-width: 800px) {
 	#blockrowinner-1 {
-		max-width: 800pt;
+		max-width: 800px;
 		margin: 0 auto;
 		background: url("block-1-bg.png") no-repeat center;
 		background-size: 100%;
 	}
 }
 
-@media (max-width: 800pt) {
+@media (max-width: 800px) {
 	#blockrowinner-1 {
 		width: 100%;
 		background: url("block-1-bg.png") no-repeat center;
-		background-size: 800pt;
+		background-size: 800px;
 	}
 }
 
-@media (min-width: 480pt) {
+@media (min-width: 480px) {
 	#block-1 {
-		width: 480pt;
+		width: 480px;
 		margin: 0 auto;
-		padding: 120pt 0;
+		padding: 120px 0;
 	}
 
 	#maindesc {
-		height: 48pt;
-		font-size: 24pt;
+		height: 48px;
+		font-size: 24px;
 		color: white;
 		text-align: center;
 	}
 
 	#mainbannerbg {
 		width: 100%;
-		height: 240pt;
+		height: 240px;
 		display: block;
 		background: url("banner-white.png") no-repeat center;
 		background-size: 75%;
-		font-size: 0pt;
+		font-size: 0px;
 	}
 }
 
-@media (max-width: 480pt) {
+@media (max-width: 480px) {
 	#block-1 {
 		width: 100%;
 		margin: 0;
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6, p {
 		display: block;
 		background: url("banner-white.png") no-repeat center;
 		background-size: calc(75vw);
-		font-size: 0pt;
+		font-size: 0px;
 	}
 }
 
