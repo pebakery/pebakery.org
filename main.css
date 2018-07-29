@@ -10,6 +10,12 @@ div {
 	display: block;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	font-family: Segoe UI, Apple Gothic, sans-serif;
+}
+
 #toplevel {
 	display: block;
 	width: 100%;
@@ -51,17 +57,19 @@ div {
 	}
 
 	#maindesc {
+		height: 48pt;
 		font-size: 24pt;
 		color: white;
 		text-align: center;
-		margin: 0;
-		padding: 0;
 	}
 
-	#mainbanner {
+	#mainbannerbg {
 		width: 100%;
-		height: auto;
+		height: 240pt;
 		display: block;
+		background: url("banner-white.png") no-repeat center;
+		background-size: 75%;
+		font-size: 0pt;
 	}
 }
 
@@ -73,16 +81,22 @@ div {
 	}
 
 	#maindesc {
+		height: calc(10vw);
 		font-size: calc(5vw);
 		color: white;
 		text-align: center;
-		margin: 0;
-		padding: 0;
 	}
 
-	#mainbanner {
+	#mainbannerbg {
 		width: 100%;
-		height: auto;
+		height: calc(50vw);
 		display: block;
+		background: url("banner-white.png") no-repeat center;
+		background-size: calc(75vw);
+		font-size: 0pt;
 	}
+}
+
+#mainbanner {
+	display: none;
 }
