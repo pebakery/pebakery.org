@@ -1,0 +1,35 @@
+name: Wyam
+
+on:
+  push:	
+    branches:	
+      - source
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.0.100
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
+    - name: Install Wyam
+      run: dotnet tool install --tool-path . wyam.tool
+    - name: Publish landing
+      run: |
+        mkdir output
+        cp -r landing/* output
+    - name: Publish blog
+      run: ./wyam build -c blog-src/config.wyam -i blog-src/input -o output/blog
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./output
+
