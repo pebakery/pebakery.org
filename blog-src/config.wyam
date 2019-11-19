@@ -1,0 +1,11 @@
+#recipe blog
+#theme Stellar
+
+Settings[Keys.Host] = "pebakery.org";
+Settings[Keys.LinkRoot] = "/blog/";
+Settings[Keys.LinksUseHttps] = true;
+Settings[BlogKeys.Title] = "PEBakery";
+Settings[BlogKeys.Description] = "PEBakery Blog";
+
+// Add any pipeline customizations here
+

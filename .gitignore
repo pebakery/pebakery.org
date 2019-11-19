@@ -1,0 +1,5 @@
+config.wyam.dll
+config.wyam.hash
+config.wyam.packages.xml
+blog-src/wwwroot/
+blog-src/output/
