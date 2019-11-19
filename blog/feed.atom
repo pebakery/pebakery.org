@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>https://pebakery.org/blog</id>
+	<title>PEBakery</title>
+	<link rel="self" href="https://pebakery.org/blog" />
+	<rights>2019</rights>
+	<updated>2019-11-19T02:32:39Z</updated>
+	<subtitle>PEBakery Blog</subtitle>
+	<entry>
+		<id>https://pebakery.org/blog/posts/first-post</id>
+		<title>First Post</title>
+		<link href="https://pebakery.org/blog/posts/first-post" />
+		<updated>2019-11-18T00:00:00Z</updated>
+		<content>&lt;p&gt;By Hajin Jang&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et purus sed leo mattis convallis vitae ut tortor. Vestibulum eget lectus quam. Ut diam orci, pellentesque ut interdum vitae, dictum vitae diam. Donec vitae sem sodales, tincidunt nulla sed, cursus eros. Aenean mi ligula, rhoncus vitae mauris rhoncus, malesuada commodo urna. Mauris egestas sollicitudin magna, sit amet faucibus dui rhoncus ac. Mauris ut nisi auctor, ultrices nunc non, auctor turpis. Praesent auctor sagittis quam, et tristique nunc accumsan sit amet. Suspendisse potenti.&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;By Hajin Jang&lt;/p&gt;</summary>
+	</entry>
+</feed>

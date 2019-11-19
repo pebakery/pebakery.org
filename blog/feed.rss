@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+	<channel>
+		<title>PEBakery</title>
+		<link>https://pebakery.org/blog</link>
+		<description>PEBakery Blog</description>
+		<copyright>2019</copyright>
+		<pubDate>Tue, 19 Nov 2019 02:32:39 GMT</pubDate>
+		<lastBuildDate>Tue, 19 Nov 2019 02:32:39 GMT</lastBuildDate>
+		<item>
+			<title>First Post</title>
+			<link>https://pebakery.org/blog/posts/first-post</link>
+			<description>&lt;p&gt;By Hajin Jang&lt;/p&gt;</description>
+			<guid>https://pebakery.org/blog/posts/first-post</guid>
+			<pubDate>Mon, 18 Nov 2019 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;By Hajin Jang&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et purus sed leo mattis convallis vitae ut tortor. Vestibulum eget lectus quam. Ut diam orci, pellentesque ut interdum vitae, dictum vitae diam. Donec vitae sem sodales, tincidunt nulla sed, cursus eros. Aenean mi ligula, rhoncus vitae mauris rhoncus, malesuada commodo urna. Mauris egestas sollicitudin magna, sit amet faucibus dui rhoncus ac. Mauris ut nisi auctor, ultrices nunc non, auctor turpis. Praesent auctor sagittis quam, et tristique nunc accumsan sit amet. Suspendisse potenti.&lt;/p&gt;
+</content:encoded>
+		</item>
+	</channel>
+</rss>
